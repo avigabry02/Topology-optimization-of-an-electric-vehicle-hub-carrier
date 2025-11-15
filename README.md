@@ -11,7 +11,7 @@ This project, conducted as part of the Topology Optimization course at Politecni
 The hub carrier's optimization was crucial, as mass was identified as the most influential parameter on the vehicle's energy consumption.
 
 * **Objective:** Minimize the weighted compliance of the structure across all loading cases.
-* **Constraints:** The optimization was subject to critical constraints on **mass fraction** (ranging between 0.2 and 0.4), **toe stiffness** ($> 84,000~Nm/rad$), **camber stiffness** ($> 160,000~Nm/rad$), and a **forging constraint** along the Y-direction to ensure manufacturability.
+* **Constraints:** The optimization was subject to critical constraints on mass fraction (ranging between 0.2 and 0.4), toe stiffness ($> 84,000~Nm/rad$), camber stiffness ($> 160,000~Nm/rad$), and a forging constraint along the Y-direction to ensure manufacturability.
 * **Material and Loads:** The component was analyzed using **Aluminium 6061 T6**. Six realistic loading conditions were considered, including pure rolling, braking, cornering (internal/external turn), and obstacle impacts.
 * **FEA Validation:** Finite Element Analysis (FEA) confirmed that the maximum Von Mises stresses were well below the material's proof strength ($270~MPa$) in all simulated scenarios, ensuring the structural integrity of the optimized design.
 
